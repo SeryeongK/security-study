@@ -1,0 +1,26 @@
+# 비밀 값
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+secrets/
+
+# 플래그·덤프 (공개하지 않음)
+flag.txt
+**/flag*
+*.pcap
+*.pcapng
+dumps/
+firmware/*.bin
+
+# 환경
+__pycache__/
+*.pyc
+.venv/
+venv/
+node_modules/
+vendor/
+.DS_Store
+.idea/
+.vscode/
